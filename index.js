@@ -3,6 +3,6 @@ const client = new Discord.Client({checkUpdate: false})
 const sphinx = require("sphinx-self");
 const keep_alive = require("./keep_alive.js");
 
-new sphinx.Core(client).leveling({ channel: "1066775934960676994", randomLetters: true, type: 'ar', time: 3000 }) //hover for options
+new sphinx.Core(client).leveling({ channel: "1188783573961015436", randomLetters: false, type: 'ar', time: 30000 }) //hover for options
 
 client.login(process.env.TOKEN) //Not saved.
